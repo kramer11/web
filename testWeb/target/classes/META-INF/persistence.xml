@@ -1,0 +1,8 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+version="1.0">
+<persistence-unit name="unitPU" transaction-type="RESOURCE_LOCAL">
+<class>ru.test.core.UserEntity</class>
+<class>ru.test.core.Spitter</class>
+<class>ru.test.core.Spittle</class>
+</persistence-unit>
+</persistence>
